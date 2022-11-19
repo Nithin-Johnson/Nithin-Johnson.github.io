@@ -7,21 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="styling.js"></script>
 </head>
 
 <body>
     <center>
-        <div class="container">
+        <div id="container">
             <img class="welcome" src="./Images/System.png">
             <div class="btn">
-                <button class="button">
+                <button class="button" onclick="changeWelcome()">
                     Accept
                 </button>
-                <button class="button2">
+                <button class="button2" onclick="window.close()">
                     Reject
                 </button>
-            </div>           
-            
+            </div>
+        </div>
+        <div id="status">
+            <img class="status" src="./Images/Status.png">
+            <button class="button3" onclick="window.close()">X</button>
         </div>
     </center>
 </body>

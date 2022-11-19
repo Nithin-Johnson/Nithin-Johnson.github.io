@@ -3,8 +3,9 @@
     height: auto;
 }
 
-.container {
-    position: relative;
+#container {
+    position: fixed;
+    left: 8%;  
 }
 
 div.button {
@@ -17,8 +18,8 @@ div.button {
     top: 80%;
     left: 35%;
     transform: translate(-50%, -50%);
-    background-color: skyblue;
-    color:aqua;
+    background-color: lightskyblue;
+    color:cornflowerblue;
     font-size: 25px;
     border: none;
     cursor: pointer;
@@ -38,7 +39,7 @@ div.button {
     right: 30%;
     transform: translate(-50%, -50%);
     background-color: skyblue;
-    color: aqua;
+    color: cornflowerblue;
     font-size: 25px;
     border: none;
     cursor: pointer;
@@ -52,10 +53,24 @@ div.button {
     background-color: lightblue;
 }
 
-.btn {
-    top: 80;
-    background-color: black;
-    color: black;
+.button3 {
+    position: absolute;
+    top: 4%;
+    right: 12%;
+    transform: translate(-50%, -50%);
+    background-color: skyblue;
+    color: cornflowerblue;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    max-width: 100%;
+    display: block;
+    padding: 1%;
+}
+
+.button3:hover {
+    background-color: lightblue;
 }
 
 body {
@@ -63,4 +78,16 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%
+}
+
+#status {
+    position: absolute;
+    top: 10%;
+    left: 8%;
+    visibility: hidden;   
+}
+
+.status {
+    max-width: 80%;
+    height: auto;
 }
