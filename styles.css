@@ -1,0 +1,66 @@
+.welcome {
+    max-width: 80%;
+    height: auto;
+}
+
+.container {
+    position: relative;
+}
+
+div.button {
+    max-width: 100%;
+    height: auto;
+}
+
+.button {
+    position: absolute;
+    top: 80%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    background-color: skyblue;
+    color:aqua;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    max-width: 100%;
+    display: block;
+    padding: 1%;
+}
+
+button:hover {
+    background-color: lightblue;
+}
+
+.button2 {
+    position: absolute;
+    top: 80%;
+    right: 30%;
+    transform: translate(-50%, -50%);
+    background-color: skyblue;
+    color: aqua;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    max-width: 100%;
+    display: block;
+    padding: 1%;
+}
+
+button2:hover {
+    background-color: lightblue;
+}
+
+.btn {
+    top: 80;
+    background-color: black;
+    color: black;
+}
+
+body {
+    background-image: url(./Images/SystemBG.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%
+}
