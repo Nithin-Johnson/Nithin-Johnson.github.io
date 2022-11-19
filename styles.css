@@ -28,7 +28,7 @@ div.button {
     padding: 1%;
 }
 
-button:hover {
+.button:hover {
     background-color: lightblue;
 }
 
@@ -48,9 +48,11 @@ button:hover {
     padding: 1%;
 }
 
-button2:hover {
+.button2:hover {
     background-color: lightblue;
 }
+
+
 
 .btn {
     top: 80;
