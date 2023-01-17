@@ -1,7 +1,7 @@
 .welcome {
-    position: relative;
-    height: auto;
-    max-width: 80vw;  
+    position: relative;    
+    max-width: 80vw;
+    max-height: 100vmin; 
 }
 
 .button {
