@@ -1,11 +1,42 @@
 .welcome {
-    max-width: 80%;
+    position: relative;
     height: auto;
+    max-width: 80vw;  
+}
+
+.button {
+    position: absolute;
+    top: 80%;
+    left: 35%;
+    background-color: lightskyblue;
+    color: cornflowerblue;
+    font-size: 2vw;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    max-width: 100%;
+    display: block;
+    padding: 1%;
+}
+
+.button2 {
+    position: absolute;
+    top: 80%;
+    right: 30%;
+    background-color: skyblue;
+    color: cornflowerblue;
+    font-size: 2vw;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    max-width: 100%;
+    display: block;
+    padding: 1%;
 }
 
 #container {
     position: fixed;
-    left: 8%;  
+    left: 8%;
 }
 
 div.button {
@@ -13,64 +44,14 @@ div.button {
     height: auto;
 }
 
-.button {
-    position: absolute;
-    top: 80%;
-    left: 35%;
-    transform: translate(-50%, -50%);
-    background-color: lightskyblue;
-    color:cornflowerblue;
-    font-size: 25px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    max-width: 100%;
-    display: block;
-    padding: 1%;
-}
-
 .button:hover {
-    background-color: lightblue;
-}
-
-.button2 {
-    position: absolute;
-    top: 80%;
-    right: 30%;
-    transform: translate(-50%, -50%);
-    background-color: skyblue;
-    color: cornflowerblue;
-    font-size: 25px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    max-width: 100%;
-    display: block;
-    padding: 1%;
+    background-color: greenyellow;
+    color: black;
 }
 
 .button2:hover {
-    background-color: lightblue;
-}
-
-.button3 {
-    position: absolute;
-    top: 4%;
-    right: 12%;
-    transform: translate(-50%, -50%);
-    background-color: skyblue;
-    color: cornflowerblue;
-    font-size: 25px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    max-width: 100%;
-    display: block;
-    padding: 1%;
-}
-
-.button3:hover {
-    background-color: lightblue;
+    background-color: red;
+    color: white;
 }
 
 body {
@@ -80,14 +61,33 @@ body {
     background-size: 100% 100%
 }
 
-#status {
-    position: absolute;
-    top: 10%;
-    left: 8%;
-    visibility: hidden;   
-}
+
 
 .status {
-    max-width: 80%;
+    position: relative;
     height: auto;
+    max-width: 80vw;
+}
+
+.button3 {
+    position: absolute;
+    top: 4%;
+    right: 15%;
+    background-color: skyblue;
+    color: cornflowerblue;
+    font-size: 2vmin;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    max-width: 100%;
+    display: block;
+    padding: 1%;
+}
+.button3:hover {
+        background-color: red;
+        color: white;
+}
+
+#status {
+    visibility: hidden;
 }
